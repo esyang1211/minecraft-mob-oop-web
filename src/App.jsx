@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
+// Main UI component for the Minecraft Mob OOP visualizer
+
 class Mob {
   constructor(name, hp, damage, type, icon) {
     this.name = name;
